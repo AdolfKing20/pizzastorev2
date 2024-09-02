@@ -10,3 +10,10 @@ body{
   font-family: "Roboto", system-ui;
   background: #E5E5E5;
 }
+
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  overflow-x: scroll;
+}
