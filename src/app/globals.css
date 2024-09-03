@@ -34,5 +34,11 @@ body{
   .gridcontainer{
     grid-template-columns: 1fr 1fr;
     margin: 1rem 0;
+
+    img{
+      height: 210px;
+      object-fit: cover;
+      border-radius: 1rem;
+    }
   }
 }
