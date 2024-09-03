@@ -1,5 +1,4 @@
 "use client"
-"use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Pizzapeperoni from "@/components/images/pizzapeperoni.jpg";
@@ -52,10 +51,10 @@ function Toppizza() {
             <Image
               src={slides[currentIndex].src}
               alt={slides[currentIndex].alt}
-              className="w-full h-40 object-cover transition-opacity duration-500 ease-in-out"
+              className="w-full h-40 md:h-64 object-cover transition-opacity duration-500 ease-in-out"
               style={{ opacity: 1 }}
             />
-            <div className="absolute bottom-0 left-0 bg-black/50 text-white p-4 rounded-b-2xl">
+            <div className="absolute bottom-0 left-0 w-full bg-black/40 backdrop-blur  text-white p-4 rounded-b-2xl">
               <h2 className="text-lg font-bold">{slides[currentIndex].title}</h2>
               <p className="text-sm">{slides[currentIndex].description}</p>
             </div>

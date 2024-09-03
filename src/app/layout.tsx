@@ -19,11 +19,12 @@ export default function RootLayout({
     <html lang="es">
       <body>
         
-        
+        <section className="container">
+    <Header />
       {children}
 
       
-    <Header />
+    </section>
       </body>
     </html>
   );

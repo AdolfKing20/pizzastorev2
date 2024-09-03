@@ -3,8 +3,8 @@ import Link from "next/link"
 function Header() {
   return (
     <>
-    <header className='fixed bottom-0 w-full'>
-    <ul className=" bg-sky-950 h-16 flex items-center justify-between px-4">
+    <header className='fixed bottom-0 w-full lg:relative'>
+    <ul className=" bg-sky-950 h-16 flex items-center justify-between px-4 lg:h-dvh lg:flex-col lg:justify-around lg:w-96 lg:rounded-tr-3xl lg:rounded-br-3xl">
         <li>
             <Link href={""}>
             <svg className="icon icon-tabler icon-tabler-category-2" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
