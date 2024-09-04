@@ -11,11 +11,12 @@ body{
   background: #E5E5E5;
 }
 
-@media screen and (min-width: 1024px){
+@media (min-width: 1024px){
   .container{
     width: 100%;
     display: grid;
-    grid-template-columns: minmax(50px, 1fr) 1fr ;
+    grid-template-columns: 16rem 1fr ;
+    gap: 1.5rem;
   }
 
 }
